@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: grey;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1220px;
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    padding: 40px 100px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 100px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.section-header h1 {
+    font-size: 38px;
+}
+
+.section-header p {
+    color: blue;
+    font-size: 18px;
+}
+
+.features-container p {
+    padding-top: 10px;
+    line-height: 22px;
+}
+
+.card1-info1 {
+    text-align: center;
+}
+
+.card1-info2 {
+    text-align: center;
+}
+
+.card1-info3 {
+    text-align: center;
+}
+
+.features-container img {
+    height: 160px;
+    max-width: 920px;
+}
+
+.service-container {
+    padding: 40px 100px;
+}
+
+.serivice-header p {
+    color: blue;
+}
+
+.serivice-header h1 {
+    font-size: 35px;
+}
+
+.serivice-header {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 100px;
+}
+
+.card2-part1 {
+    display: flex;
+    padding-bottom: 70px;
+    gap: 25px;
+}
+
+.card2-part2 {
+    display: flex;
+    gap: 25px;
+}
+
+.card2-part1 img {
+    height: 350px;
+}
+
+.card2-part2 img {
+    height: 350px;
+}
+
+.review-header {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 100px;
+}
+
+.review-header h1 {
+    font-size: 35px;
+}
+
+.review-header p {
+    color: blue;
+}
+
+.review-container {
+
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 100px;
+    gap: 65px;
+}
+
+.card3-info1 img {
+    padding-bottom: 20px;
+    height: 120px;
+}
+
+.card3-info2 img {
+    padding-bottom: 20px;
+    height: 120px;
+}
+
+.card3-info3 img {
+    padding-bottom: 20px;
+    height: 120px;
+}
+
+.card3-info1 .h5 {
+    color: rgb(85, 114, 245);
+}
+
+.card3-info2 .h5 {
+    color: rgb(85, 114, 245);
+}
+
+.card3-info3 .h5 {
+    color: rgb(85, 114, 245);
+}
+
+.card3-info1 {
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+}
+
+.card3-info2 {
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+}
+
+.card3-info3 {
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+}
+
+.review-container p {
+    text-align: center;
+    line-height: 20px;
+}
+
+.location-header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+}
+
+.location-header p {
+    color: blue;
+}
+
+.location-header h1 {
+    font-size: 35px;
+}
+
+.location-container {
+    padding: 10px 45px;
+}
+
+.location-container img {
+    width: 970px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+    color: white;
+    background: rgb(108, 108, 255);
+}
